@@ -1,0 +1,15 @@
+{
+        "scripts": {
+                "dev": "node server.js",
+                "test": "jest"
+        },
+        "description": "simple-aggregator ",
+        "main": "server.js",
+        "license": "ISC",
+        "author": "winterwisdom",
+        "dependencies": {
+                "csv-parser": "^3.0.0",
+                "jest": "^29.6.1",
+                "moment": "^2.29.4"
+        }
+}
