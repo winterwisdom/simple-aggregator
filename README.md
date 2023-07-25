@@ -9,12 +9,12 @@ cd simple-aggregator
 npm install
 ```
 
-Run server
+###Run server
 ```sh
 npm run dev
 ```
 
-Manually test server
+###Manually test server
 
 From command line:
 ```sh
@@ -25,7 +25,7 @@ From browser:
 http://localhost:8000?customerId=1abb42414607955dbf6088b99f837d8f&startDate=2021-03-01T10:00:00Z&endDate=2021-03-02T12:00:00Z
 
 
-Run tests
+###Run tests
 ```sh
 npm run test
 ```
