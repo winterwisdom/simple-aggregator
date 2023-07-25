@@ -4,10 +4,6 @@ const fs = require("fs");
 const csv = require("csv-parser");
 const simpleAggregator = require('./simpleAggregator');
 
-/*
-curl -X GET "http://localhost:8000?customerId=1abb42414607955dbf6088b99f837d8f&startDate=2021-03-01T10:00:00Z&endDate=2021-03-02T12:00:00Z" 
-*/
-
 const host = 'localhost';
 const port = 8000;
 
