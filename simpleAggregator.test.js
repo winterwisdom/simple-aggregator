@@ -27,6 +27,7 @@ test('[parseDate] parsing date correctly handles millisecond format variations',
     expect(simpleAggregator.parseDate("2021-03-01 00:03:21.74+00").toUTCString()).toBe("Mon, 01 Mar 2021 00:03:21 GMT");
     expect(simpleAggregator.parseDate("2021-03-01 00:07:40.3+00").toUTCString()).toBe("Mon, 01 Mar 2021 00:07:40 GMT");
     expect(simpleAggregator.parseDate("2021-03-03 21:43:57.241+00").toUTCString()).toBe("Wed, 03 Mar 2021 21:43:57 GMT");
+    expect(simpleAggregator.parseDate("2021-03-03 21:43:57+00").toUTCString()).toBe("Wed, 03 Mar 2021 21:43:57 GMT");
 });
 
 test('[parseDate] parsing date correctly handles timezone variations', () => {

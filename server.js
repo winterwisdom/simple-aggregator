@@ -48,5 +48,12 @@ const requestListener = function (req, res) {
 
 const server = http.createServer(requestListener);
 server.listen(port, host, () => {
-    console.log(`Server is running on http://${host}:${port}` + "\n" + "\n" + "Test manually by: " + "\n" + "\n" + "opening a new command line tab and running this: " + "\n" + 'curl -X GET "http://localhost:8000?customerId=1abb42414607955dbf6088b99f837d8f&startDate=2021-03-01T10:00:00Z&endDate=2021-03-02T12:00:00Z"' + "\n" + "\n" + "OR" + "\n" + "\n" + "opening a browser and pasting this in:" + "\n" + 'http://localhost:8000?customerId=1abb42414607955dbf6088b99f837d8f&startDate=2021-03-01T10:00:00Z&endDate=2021-03-02T12:00:00Z');
+    const message = `Server is running on http://${host}:${port}` + "\n" + "\n" + 
+      "Test manually by: " + "\n" + "\n" + 
+      "opening a new command line tab and running this: " + "\n" + 
+      'curl -X GET "http://localhost:8000?customerId=1abb42414607955dbf6088b99f837d8f&startDate=2021-03-01T10:00:00Z&endDate=2021-03-02T12:00:00Z"' + 
+      "\n" + "\n" + "OR" + "\n" + "\n" + 
+      "opening a browser and pasting this in:" + "\n" + 
+      'http://localhost:8000?customerId=1abb42414607955dbf6088b99f837d8f&startDate=2021-03-01T10:00:00Z&endDate=2021-03-02T12:00:00Z';
+    console.log(message);
 });
