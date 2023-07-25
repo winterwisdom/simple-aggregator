@@ -9,6 +9,11 @@ cd simple-aggregator
 npm install
 ```
 
+### Run unit tests
+```sh
+npm run test
+```
+
 ### Run server
 ```sh
 npm run dev
@@ -25,9 +30,18 @@ From browser:
 http://localhost:8000?customerId=1abb42414607955dbf6088b99f837d8f&startDate=2021-03-01T10:00:00Z&endDate=2021-03-02T12:00:00Z
 
 
-### Run tests
+### Important files
 ```sh
-npm run test
+simpleAggregator.js -> aggregation into buckets
+simpleAggregator.test.js -> jest unit tests
+server.js -> http service 
+```
+
+### Dependencies/Libraries used
+```sh
+jest -> unit tests
+moment -> date/time
+csv-parser -> reading the csv
 ```
 
 
