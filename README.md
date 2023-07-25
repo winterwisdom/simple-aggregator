@@ -1,5 +1,5 @@
 
-### Simple Aggregator
+# Simple Aggregator
 
 ## Project Setup
 
@@ -25,7 +25,7 @@ npm run test
 
 
 
-# Initial task instructions:
+### Initial task instructions:
 
 Attached, find the file `events.csv`, which contains a log of events with the
 the format customer\_id, event\_type, transaction\_id, timestamp.
