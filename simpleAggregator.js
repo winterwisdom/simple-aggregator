@@ -24,7 +24,7 @@ function isInSameBucket(current, prev) {
 function aggregateIntoBuckets(allDates) {
 
   if(allDates.length === 0) {
-    return "No resulting matching query parameters";
+    return "No results matching query parameters";
   }
 
   var output = "";

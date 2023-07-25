@@ -56,7 +56,7 @@ test('[aggregateIntoBuckets] simple aggregation', () => {
 });
 
 test('[aggregateIntoBuckets] edge case - no dates', () => {
-    expect(simpleAggregator.aggregateIntoBuckets([])).toMatch("No resulting matching query parameters");
+    expect(simpleAggregator.aggregateIntoBuckets([])).toMatch("No results matching query parameters");
 });
 
 test('[aggregateIntoBuckets] edge case - only one date', () => {
